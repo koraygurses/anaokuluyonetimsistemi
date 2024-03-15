@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "686892795702",
+    "project_id": "anaokulu-yonetim-sistemi",
+    "storage_bucket": "anaokulu-yonetim-sistemi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686892795702:android:862e8fee7e952dc6871597",
+        "android_client_info": {
+          "package_name": "io.ionic.starter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwFHoNg3S36GUmtX2w0DtteEYJPC3KaZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

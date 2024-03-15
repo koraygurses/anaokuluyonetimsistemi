@@ -1,0 +1,48 @@
+:root {
+    --fullscreen-modal-width: 100%;
+    --fullscreen-modal-height: 100%;
+    --date-modal-width: calc(100% - 2em);
+    --edit-modal-width: 100%;
+    --edit-modal-bg-color: null;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    :root {
+      --fullscreen-modal-width: 100%;
+      --fullscreen-modal-height: 100%;
+    }
+  }
+
+  @media only screen and (min-width: 620px) {
+    :root {
+      --date-modal-width: 600px;
+      --edit-modal-width: 600px;
+      --edit-modal-bg-color: var(--ion-color-light);;
+    }
+  }
+  
+   /* Tam Ekran Yapılması İstenen Modalların CSS'i */
+  .fullscreen-modal {
+    --width: var(--fullscreen-modal-width);
+    --min-width: auto;
+    --max-width: auto;
+    --height: var(--fullscreen-modal-height);
+    --min-height: auto;
+    --max-height: auto;
+  }
+
+  .edit-modal {
+    background-color: var( --edit-modal-bg-color);
+    width: var(--edit-modal-width);
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+  }
+
+  /* Aktivite Ekranındaki Tarih Seçme Modalın Responsive CSS'i */
+  .date-modal {
+    --height: auto;
+    --width: var(--date-modal-width);
+    --border-radius: 16px;
+    --box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  }
